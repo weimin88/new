@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="en" class="easy-sidebar-active">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Just Pentool</title>
+
+<!-- Jquary -->
+<link href="https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/searchbar.css" rel="stylesheet">
+<!-- Sidebar Css -->
+<link href="css/easy-sidebar.css" rel="stylesheet" type="text/css">
+<!-- JS -->
+<script src="js/jquery.detect_swipe.js"></script>
+<!-- SignUp and Login --> 
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script src="js/js.js"></script>
+<script src="js/autocomplete.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="index.html"><img style="height:35px;padding-bottom: 10px;"src="images/logo.png" alt="Brand"></a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<!-- Dropdown -->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Photoshop
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="beginner.html">Photoshop Beginner</a></li>
+<li class="divider"></li>
+<li><a href="ps_intermediate.html">Photoshop Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="#">Photoshop Advanced</a></li> 
+</ul>
+</li>
+<!-- Dropdown 2 -->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Illustrator
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="aibeginner.html">Illustrator Beginner</a></li>
+<li class="divider"></li>
+<li><a href="aiintermediate.html">Illustrator Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="aiad.html">Illustrator Advanced</a></li> 
+</ul>
+</li>
+<!-- Dropdown 3-->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Sketch
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Sketch Beginner</a></li>
+<li class="divider"></li>
+<li><a href="#">Sketch Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="#">Sketch Advanced</a></li> 
+</ul>
+</li>
+<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>Log in<span class="sr-only">(current)</span></a></li>
+<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>Sign up</a></li> 
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- content start here -->
+<div class="container-fluid" id="blowlogo"><!-- Banner image / donnot delete -->
+<img class="img-responsive"src="images/aitop.png">
+
+<div class="jumbotron col-lg aitopimagebg">
+<div class="container beginnertitle"></br>
+<h1 style="color:#a36475;">Illustrator Beginner<small> Get started, get inspired.</small></h1>
+
+
+<!--Shortcut-->
+<div class="container-fixed" style="margin-top: 0px;">
+<ol class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li class="active">Illustrator Beginner</li>
+</ol>
+</div><!--closes Shortcut-->
+
+<!--Jumbotron-->
+<div class="jumbotron" style="margin-top: -20px;background-color:white;">
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+    <h2>How to create low poly graphics <span class="badge">1 Hour</span></h2>
+    <p>Starting to learn illustrator pen tool with organized structures.</p>
+  </div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages">
+  <iframe src="https://videos-tv.adobe.com/2014-05-09/80398121e75c7f9471310edd50ccdcee.mp4" width="100%" height="400px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Illustrator pen tool</h3>
+  <p>The Pencil tool works primarily the same way in Adobe Illustrator and InDesign. It lets you draw open and closed paths as if you were drawing with a pencil on paper. It is most useful for fast sketching or creating a hand-drawn look. Once you draw a path, you can immediately change it if needed.</p> 
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages">
+  <img src="images/1.gif" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Draw straight line segments with the Pen tool</h3>
+  <p>The simplest path you can draw with the Pen tool is a straight line, made by clicking the Pen tool to create two anchor points. By continuing to click, you create a path made of straight line segments connected by corner points.</p> 
+  
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/2.gif" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Draw curves with the Pen tool</h3>
+    <p>You create a curve by adding an anchor point where a curve changes direction, and dragging the direction lines that shape the curve. The length and slope of the direction lines determine the shape of the curve.</p>
+
+  <p>Curves are easier to edit and your system can display and print them faster if you draw them using as few anchor points as possible. Using too many points can also introduce unwanted bumps in a curve. Instead, draw widely spaced anchor points, and practice shaping curves by adjusting the length and angles of the direction lines.</p>
+  <h4>Reposition anchor points as you draw</h4>
+  <p>After you click to create an anchor point, keep the mouse button pressed down, hold down the spacebar, and drag to reposition the anchor point.</p>
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/3.gif" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Draw straight lines followed by curves</h3>
+    <p>1. Using the Pen tool, click corner points in two locations to create a straight segment.</p>
+  <p>2. Position the Pen tool over the selected endpoint. In Illustrator and InDesign, a convert-point icon appears next to the Pen tool when it is positioned correctly (In Photoshop, a small diagonal line, or slash, appears next to the Pen tool). To set the slope of the curved segment you’ll create next, click the anchor point, and drag the direction line that appears.<p>
+  <p>3. Position the pen where you want the next anchor point; then click (and drag, if desired) the new anchor point to complete the curve.</p>
+  
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/4.gif" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Draw curves followed by straight lines</h3>
+    <p>1. Using the Pen tool, drag to create the first smooth point of the curved segment, and release the mouse button.</p>
+  <p>2. Reposition the Pen tool where you want the curved segment to end, drag to complete the curve, and release the mouse button.</p>
+
+
+  <p>3. Position the Pen tool over the selected endpoint. A convert-point icon appears next to the Pen tool when it is positioned correctly. Click the anchor point to convert the smooth point to a corner point.</p>
+  <p>4. Reposition the Pen tool where you want the straight segment to end, and click to complete the straight segment.</p>
+    
+  
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/5.gif" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Draw two curved segments connected by a corner</h3>
+    <p>1. Using the Pen tool, drag to create the first smooth point of a curved segment.</p>
+  <p>2. Reposition the Pen tool and drag to create a curve with a second smooth point; then press and hold Alt (Windows) or Option (Mac OS) and drag the direction line toward its opposing end to set the slope of the next curve. Release the key and the mouse button.<br><br>
+  This process converts the smooth point to a corner point by splitting the direction lines.</p>
+
+  <p>3. Reposition the Pen tool where you want the second curved segment to end, and drag a new smooth point to complete the second curved segment.</p>
+    
+</div>
+</div>
+</div>
+
+</div><!--Close Jumbotron-->
+
+<footer class="footer">
+  <div class="container">
+  <p class="pull-left"> Project Pentool Awesome | 2016</p>
+  <p class="pull-right">
+  <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Help</a>
+  </p>
+</footer>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77278620-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
+

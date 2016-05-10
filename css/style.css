@@ -1,0 +1,339 @@
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+#logolayer {
+  position: relative;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  padding-top: 25px;
+  padding-left: 2px;
+  /*background-color: lightpink;*/
+}
+
+#blowlogo {
+  position: relative;
+  background-color: none;
+  left: 0px;
+  top: -40px;
+  z-index: 0;
+}
+
+.jumbotron {
+  background-color: white !important;
+}
+
+.indextitle{
+    position: relative;
+    top: 80px;
+}
+
+.topbg {
+  display: block;
+  /*margin: 0 auto;*/
+  /*width: 1170px center center !important;*/
+  min-width: 355px;
+  min-height: 290px;
+  margin-top: -278px;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+
+}
+
+.topbg2 {
+  margin-top: -44px;
+  background: url('../images/landingtop2.jpg') no-repeat center center ; 
+  background-size:cover;
+  height: auto;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+.topbg3 {
+  margin-top: -44px;
+  background: url('../images/landingtop3.jpg') no-repeat center center !important ; 
+  background-size:cover;
+  height: auto;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+
+
+h4 {
+	line-height: 26px !important;
+	letter-spacing: 0.02em !important;
+}
+
+/*inverse dropdown color*/
+
+.dropdown-menu>li>a {
+	color: #cacaca !important;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #424242 !important;
+}
+
+.inverse-dropdown{
+	background-color: #222 !important;
+	border-color: #080808 !important;
+	&>li>a{
+		color: #cacaca !important;
+		&:hover{
+			color: #fff !important;
+			background-color: #000 !important;
+		}
+	}
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	border-bottom-right-radius: 4em !important;
+	border-bottom-left-radius: 4em !important;
+	border-top-right-radius: 4em !important;
+	border-top-left-radius: 4em !important;
+}
+/*.searchinput {
+  height: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 2px;
+}
+.searchbutton {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}*/
+/*
+.panel-body {
+	background:#e9e9e9 !important;
+}*/
+.text_courses {
+	text-align: center;
+	padding-top: 10px;
+/*	padding-bottom: 30px;*/
+}
+.text_space {
+	margin-bottom: 40px;
+}
+
+.illustrator {
+	width: 319px;
+	height: 362px;
+	background-image: url("../images/319x362.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.illustrator div {
+	font-size: 1.9em;
+  font-weight: 300;
+  padding-top: 125px;
+  color: #a36475;
+}
+.illustrator p {
+	padding-top: 9px;
+  color: #636363;
+  height: 110px;
+}
+.illustrator button {
+	font-weight: 400;
+  color: #f5f5f5;
+  background-color: #a36475;
+  border-color: #a36475;
+  padding: 12px 50px 12px 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.illustrator button:hover {
+	color: white;
+	background-color: #915364;
+}
+
+
+.photoshop {
+	width: 319px;
+	height: 362px;
+	background-image: url("../images/319x362_ps.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.photoshop div {
+	font-size: 1.9em;
+  font-weight: 300;
+  padding-top: 125px;
+  color: #a36475;
+}
+.photoshop p {
+	padding-top: 9px;
+  color: #636363;
+  height: 110px;
+}
+.photoshop button {
+	font-weight: 400;
+  color: #f5f5f5;
+  background-color: #a36475;
+  border-color: #a36475;
+  padding: 12px 50px 12px 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.photoshop button:hover {
+	color: white;
+	background-color: #915364;
+}
+
+
+.Sketch {
+	width: 319px;
+	height: 362px;
+	background-image: url("../images/319x362_sk.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.Sketch div {
+	font-size: 1.9em;
+  font-weight: 300;
+  padding-top: 125px;
+  color: #a36475;
+}
+.Sketch p {
+	padding-top: 9px;
+  color: #636363;
+  height: 110px;
+}
+.Sketch button {
+	font-weight: 400;
+  color: #f5f5f5;
+  background-color: #a36475;
+  border-color: #a36475;
+  padding: 12px 50px 12px 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.Sketch button:hover {
+	color: white;
+	background-color: #915364;
+}
+
+.freewrap {
+  height: 200px;
+}
+
+.freebg {
+  background-color: #f7f7f7;
+  padding-top: 65px;
+/*  padding-bottom: 65px;*/
+  text-align: center;
+}
+
+.freetitle {
+  font-size: 1.7em;
+  font-weight: 300;
+  padding-top: 15px;
+  color: #a36475;
+  text-align: left;
+}
+
+.freeicon {
+  float: left;
+  padding: 10px 10px 10px 10px;
+}
+
+.freetext {
+  text-align: left;
+}
+
+.footer div {
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.loginbg {
+  width: 100%;
+  height: 100%;
+}
+
+.pentoollogo {
+  width: 10%;
+}
+
+.loginwrap {
+  text-align: center;
+}
+
+.signupwrap {
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+.navbar {
+      font-family: Yantramanav, sans-serif;
+      margin-bottom: 0;
+      background-color: #222222;
+      border: 0;
+      font-size: 12px !important;
+      letter-spacing: 3px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #333 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #a36475 !important;
+  }
+  .navbar-nav li.active a {
+      color: #a36475 !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      color: #000 !important;
+      background-color: lightgray !important;
+  }
+  footer {
+      /*background-color: #222222;*/
+      color: #333;
+      padding: 32px;
+  }
+  footer a {
+      color: #333;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }

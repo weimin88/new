@@ -1,0 +1,51 @@
+.container {
+	width: 500px;
+	background-color: white;
+	border: 2px solid #785E6F;
+	border-radius:8px;
+	padding: 7px;
+}
+
+
+
+.loginwrap {
+  text-align: center;
+  margin-top:20px; 
+
+}
+#login_password {
+
+}
+
+.signupwrap {
+  margin-top: 25px;
+}
+
+.logo {
+	text-align: center;
+
+}
+
+.loginlogo {
+	width: 50%;
+}
+
+#login_button, #register_button {
+	background-color: #65495D; 
+    color: white;
+
+}
+
+#login_button:hover {
+	
+     background-color: white; 
+    color: black; 
+    border: 2px solid #65495D;
+}
+
+#register_button:hover {
+	
+     background-color: white; 
+    color: black; 
+    border: 2px solid #65495D;
+}

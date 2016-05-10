@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en" class="easy-sidebar-active">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Just Pentool</title>
+
+<!-- Jquary -->
+<link href="https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/searchbar.css" rel="stylesheet">
+<!-- Sidebar Css -->
+<link href="css/easy-sidebar.css" rel="stylesheet" type="text/css">
+<!-- JS -->
+<script src="js/jquery.detect_swipe.js"></script>
+<!-- SignUp and Login --> 
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script src="js/js.js"></script>
+<script src="js/autocomplete.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="index.html"><img style="height:35px;padding-bottom: 10px;"src="images/logo.png" alt="Brand"></a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<!-- Dropdown -->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Photoshop
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="beginner.html">Photoshop Beginner</a></li>
+<li class="divider"></li>
+<li><a href="ps_intermediate.html">Photoshop Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="ps_ad.html">Photoshop Advanced</a></li> 
+</ul>
+</li>
+<!-- Dropdown 2 -->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Illustrator
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="aibeginner.html">Illustrator Beginner</a></li>
+<li class="divider"></li>
+<li><a href="aiintermediate.html">Illustrator Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="aiad.html">Illustrator Advanced</a></li> 
+</ul>
+</li>
+<!-- Dropdown 3-->
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Sketch
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Sketch Beginner</a></li>
+<li class="divider"></li>
+<li><a href="#">Sketch Intermediate</a></li>
+<li class="divider"></li>
+<li><a href="#">Sketch Advanced</a></li> 
+</ul>
+</li>
+<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>Log in<span class="sr-only">(current)</span></a></li>
+<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>Sign up</a></li> 
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container-fluid" id="blowlogo"><!-- Banner image / donnot delete -->
+<img class="img-responsive"src="images/landingtop2.jpg">
+
+<div class="container beginnertitle"></br>
+<h1 style="color:#a36475;">Photoshop Beginner<small> Get started, get inspired.</small></h1>
+
+<!--Shortcut-->
+<div class="container-fixed" style="margin-top: 0px;">
+<ol class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li class="active">Photoshop Beginner</li>
+</ol>
+</div><!--closes Shortcut-->
+
+</div>
+
+<!--Jumbotron-->
+<div class="jumbotron" style="margin-top: -20px;background-color:white;">
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+    <h2>How to create low poly graphics <span class="badge">1 Hour</span></h2>
+    <p>Starting to learn photoshop pen tool with organized structures.</p>
+  </div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages">
+  <img src="images/ps01.jpg" class="img-responsive">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Photoshop pen tool</h3>
+  <p>Photoshop provides multiple Pen tools. The standard Pen tool draws with the greatest precision; the Freeform Pen tool draws paths as if you were drawing with pencil on paper, and the magnetic pen option lets you draw a path that snaps to the edges of defined areas in your image.</p> 
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages">
+  <img src="images/psdog.jpg" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Download image and open in Photoshop</h3>
+  <p><button type="button" class="btn btn-default"><a href="images/dog.jpg">Download</a></button></p> 
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/ps02.jpg" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Preferences Setting </h3>
+  <p>Chose guides, guid & Slices..</p>
+  <p>Change Gridline Every : 20</p>
+  <p>Change Subdivisions : 1</p>
+</div>
+</div>
+</div>
+
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/ps03.jpg" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>View Setting </h3>
+  <p>Under View menu</p>
+  <p>Go Show > chose Grid</p>
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/ps04.jpg" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Use pen tool to select a square area then do " Command + enter "</h3>
+  <p>" Command + enter " is shortcut to make selection..</p>
+  <p>1. Use pen tool (shortcut: p) to select a shape on grid </p>
+  <p>2. Command + enter</p>
+  <p>3. Go Filter menu > Blur > Average (fill in an aberage color) (shortcut: command + f)</p>
+  <p>Then continue to repeat steps(1,2,3) again and again</p>
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <img src="images/ps05.jpg" class="img-responsive" width="100%" height="auto">
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Half result</h3>
+  <p>You can check how image looks like when you turn off the grids</p>
+  <p>(View > Show > Grid)</p>
+</div>
+</div>
+</div>
+
+<div class="container" id="comheight">
+<div class="row">
+<div class="col-md-6 combineimages"> 
+  <iframe src="https://player.vimeo.com/video/161567081" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<div class="col-md-6 combinetexts">
+  <h3>Example Video</h3>
+  <p><strong>All shortcuts in this video that you have to learn :</strong></p>
+  <p>Command + J = copy layer</p>
+  <p>Command + enter = make selection</p>
+  <p>Command + f = Filter  > Blur > Average</p>
+  <p>Command + d = cancal</p>
+  <p>Command + ' = turn on/off Grid</p>
+</div>
+</div>
+</div>
+
+</div><!--Close Jumbotron-->
+
+
+
+<!--Footer-->
+<footer class="footer">
+<div class="container">
+<p class="pull-left"> Project Pentool Awesome | 2016</p>
+<p class="pull-right">
+<a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Help</a>
+</p>
+</footer><!--Close Footer-->
+
+</div><!-- Banner image / donnot delete -->
+
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77278620-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
+

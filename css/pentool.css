@@ -1,0 +1,55 @@
+
+#bezierDemo{
+  padding:45px;
+  padding-bottom:10px;
+  width:400px;
+  height:450px;
+  background-color:white;
+/*  border:solid;
+  border-width: 1px;
+  border-color: gray;*/
+}
+#toolbar{
+
+  width:inherit;
+  background-color:yellofw;
+  height:50px;
+  font-family: 'Helvetica';
+  font-weight: 300;
+
+
+}
+
+#param{
+  float:left;
+  width:100px;
+  margin-left:50px;
+}
+#animateButton{
+  float:left;
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-size:14px;
+
+}
+#animateButton:hover{
+
+  color:red;
+  cursor:pointer;
+}
+
+p{
+width:400px;
+  text-align: center;
+  font-size:15px;
+  font-family: 'Helvetica';
+  font-weight: 200;
+}
+.netLine{
+position:relative;
+  z-index:0;
+}
+.cpoint{
+  position: relative;
+  z-index: 100;
+}

@@ -1,0 +1,70 @@
+/*.topimagebg {
+  margin-top: -55px;
+  background: url('../images/landingtop2.jpg') no-repeat center center !important ; 
+  background-size:cover;
+  height: auto;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}*/
+.beginnertitle {
+  position: relative;
+  top:-28px;
+  z-index: 0;
+}
+
+.inverse-dropdown{
+  background-color: #222;
+  border-color: #080808;
+}
+
+.dropdown-menu>li>a {
+    color: #cacaca !important;
+}
+
+.jumbotron p {
+  font-size: 18px;
+}
+
+.combineimages {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.combinetexts {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+div#comheight {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (max-width:768px) {
+  .combineimages img{
+    width: auto !important;
+    height: auto;
+  }
+}
+
+.button {
+ 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button:hover {background-color: #e7e7e7;}
